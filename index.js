@@ -52,16 +52,16 @@ if(BMI==19.22){
     console.log (grade);
  }
  else if (score>=80 && score<=89){
-     grade="B"
+     grade="B";
  }
  else if (score>=70 && score<=79){
-     grade="C"
+     grade="C";
  }
  else if (score>=60 && score<=69){
-     grade="D"
+     grade="D";
  }
  else if (score>=0 && score<=59){
-     grade="F"
+     grade="F";
  }
 
  console.log (grade);
@@ -123,15 +123,22 @@ if(score=80){
 var num1=40;
 var num2=20;
 
-var result=num1+num2;
-console.log(num1+num2)
+if(num1>num2){
+    result=num*2;
+    
+}
+else{
+    result=num1+num2;
+}
+console.log("result")
+
 
 
 
 // Q:6
 
 
-var tickfare=800;
+var ticketfare=800;
 
 
 var total=3000;
@@ -140,7 +147,7 @@ var student=400;
 console.log(800*50/100)
 
 var senior=680;
-console.log(800*15/100-tickfare)
+console.log(800*15/100-ticketfare)
 
 var cost=student+senior;
 console.log(cost)
